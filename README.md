@@ -1,0 +1,1 @@
+Je sais pas comment dire les trucs autrement je suis nouveau, mais ducoup ca serait bien de créer une index( accueil ) puis de baser le reste sur cette accueil, faudarit changer les couleur aussi, pourquoi pas, sur avic commun apres vote, c,est que une suggestion 

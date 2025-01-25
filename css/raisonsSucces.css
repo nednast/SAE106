@@ -1,16 +1,22 @@
-.info {
-    padding: 2em;
-    margin-top: 5em;
-    width: 80%;
-    background-color: #ff9900e4;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.61) 0px 30px 90px;
+.intro {
+  font-style: italic;
+  font-size: 27px;
+  background-color: rgb(255, 180, 75);
+  padding: 10px;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.373);
 }
 
-h1 {
-    font-size: 50px;
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.wrapper p {
+  text-align: justify;
+  font-size: 25px;
+}
+
+.wrapper p::first-letter {
+  font-weight: 700;
+  font-size: 28px;
 }

@@ -176,6 +176,11 @@ h2 {
   font-weight: 100;
   color: white;
 }
+.wrapper p::first-letter {
+  font-weight: 700;
+  font-size: 28px;
+  padding-left: 30px;
+}
 
 footer {
   margin-top: 100px;
@@ -187,4 +192,13 @@ footer {
 }
 footer p {
   font-weight: 100;
+}
+
+.intro {
+  font-style: italic;
+  font-size: 27px;
+  background-color: #151d2c;
+  padding: 10px;
+  border-left: 2px white solid;
+  border-right: 2px white solid;
 }

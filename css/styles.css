@@ -12,7 +12,8 @@
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
+  color: white;
 }
 
 .burger-checkbox {
@@ -31,6 +32,7 @@ body {
   height: 26px;
   top: 26px;
   left: 50px;
+  filter: brightness(0) invert(1);
 }
 
 header {
@@ -38,9 +40,7 @@ header {
   top: 0;
   width: 100%;
   height: 80px;
-  border-radius: 0 0px 6px 6px;
-  background-color: rgb(255, 137, 41);
-  box-shadow: rgba(0, 0, 0, 0) 0px 10px 20px, rgb(255, 137, 41) 0px 6px 6px;
+  background-color: #0d1421;
 }
 
 nav > img {
@@ -48,6 +48,7 @@ nav > img {
   position: absolute;
   top: -60px;
   right: 40px;
+  filter: brightness(0) invert(1);
 }
 .menu-img {
   position: absolute;
@@ -67,11 +68,11 @@ nav > img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #ff8929ea;
+  background-color: #0d1421e3;;
   list-style-type: none;
   transform: translateY(-100%);
   transition: 0.3s;
-  height: 800px;
+  height: 720px;
 }
 
 .menu-item {
@@ -99,7 +100,7 @@ hr {
 
 .active {
   background-color: rgb(255, 255, 255);
-  color: #ff9900e4;
+  color: #0d1421e3;
   pointer-events: none;
 }
 
@@ -109,7 +110,7 @@ hr {
 
 .entete {
   margin-top: 30px;
-  background-repeat: repeat-x;
+  background-repeat:repeat;
   background-image: url(../img/back_img.jpg);
   height: 400px;
   background-position: center;
@@ -121,6 +122,7 @@ hr {
 
 h1 {
   margin-bottom: 30px;
+  color: #021232e3;
   font-size: 50px;
   width: fit-content;
   padding: 0 15px;
@@ -128,12 +130,13 @@ h1 {
   margin-right: auto;
   background: linear-gradient(
     97deg,
-    rgba(255, 137, 41, 1) 0%,
-    rgba(255, 255, 255, 1) 6%,
-    rgba(255, 255, 255, 0.9561011904761905) 49%,
-    rgba(255, 255, 255, 1) 95%,
-    rgba(255, 137, 41, 1) 100%
+    #080d15 0%,
+    rgba(255, 255, 255, 0.735) 6%,
+    rgba(255, 255, 255, 0.893) 49%,
+    rgba(255, 255, 255, 0.653) 95%,
+    #070b13fb 100%
   );
+  border-radius: 40px;
 }
 
 h2 {
@@ -141,11 +144,11 @@ h2 {
   padding: 0 15px;
   background: linear-gradient(
     97deg,
-    rgba(255, 137, 41, 1) 0%,
+    #080d15 0%,
     rgba(255, 255, 255, 1) 6%,
     rgba(255, 255, 255, 0.9561011904761905) 49%,
     rgba(255, 255, 255, 1) 95%,
-    rgba(255, 137, 41, 1) 100%
+    #080d15 100%
   );
 }
 .wrapper {
@@ -155,20 +158,24 @@ h2 {
   margin-top: 30px;
   height: 100%;
   width: 85%;
-  background-color: #ff8929;
+  background-color: #0d1421;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
 
 .wrapper p {
-  font-weight: 400;
+  font-weight: 100;
+  color: white;
+  
 }
 
 footer {
   margin-top: 100px;
   padding: 30px;
-  background-color: #ff8929;
-  box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset,
-    rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
+  background-color: #0d1421;
+  color: white;
+  
 }
+footer p {
+  font-weight: 100;}

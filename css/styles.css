@@ -175,7 +175,10 @@ h2 {
 .wrapper p {
   font-weight: 100;
   color: white;
+  text-align: justify;
+  font-size: 25px;
 }
+
 .wrapper p::first-letter {
   font-weight: 700;
   font-size: 28px;

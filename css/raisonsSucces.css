@@ -12,3 +12,7 @@ h2 {
   font-weight: 700;
   font-size: 28px;
 }
+
+.wrapper a {
+  color: white;
+}

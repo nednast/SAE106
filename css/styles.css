@@ -12,9 +12,9 @@
 }
 
 body {
-  background-color: #000000;
+  background-image: url(../img/imageWrapper.png);
   color: white;
-}
+background-position-x: -275px;}
 
 .burger-checkbox {
   position: absolute;
@@ -166,7 +166,7 @@ h2 {
   margin-top: 30px;
   height: 100%;
   width: 85%;
-  background-color: #0d1421;
+  background-color: #0d142171;
   align-items: center;
   margin-left: auto;
   margin-right: auto;

@@ -1,9 +1,10 @@
 .intro {
   font-style: italic;
   font-size: 27px;
-  background-color: rgb(255, 180, 75);
+  background-color: #151d2c;
   padding: 10px;
-  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.373);
+  border-left: 2px white solid;
+  border-right: 2px white solid;
 }
 
 h2 {

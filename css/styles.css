@@ -64,11 +64,12 @@ nav > img {
   position: absolute;
   display: grid;
   gap: 10px;
+  margin-top: 20px;
   padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #0d1421e3;;
+  background-color: #0d1421eb;
   list-style-type: none;
   transform: translateY(-100%);
   transition: 0.3s;
@@ -93,14 +94,15 @@ nav > img {
 }
 
 hr {
-  background-color: white;
+  background-color: #b99a57;
   border-radius: 50px;
   height: 5px;
 }
 
 .active {
   background-color: rgb(255, 255, 255);
-  color: #0d1421e3;
+  color: #b99a57;
+
   pointer-events: none;
 }
 
@@ -110,7 +112,7 @@ hr {
 
 .entete {
   margin-top: 30px;
-  background-repeat:repeat;
+  background-repeat: repeat;
   background-image: url(../img/back_img.jpg);
   height: 400px;
   background-position: center;
@@ -122,21 +124,23 @@ hr {
 
 h1 {
   margin-bottom: 30px;
-  color: #021232e3;
+  color: #000000e3;
   font-size: 50px;
   width: fit-content;
-  padding: 0 15px;
+  padding: 0 50px;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(
     97deg,
     #080d15 0%,
-    rgba(255, 255, 255, 0.735) 6%,
-    rgba(255, 255, 255, 0.893) 49%,
-    rgba(255, 255, 255, 0.653) 95%,
+
+    #b99a57 6%,
+    #ffffffe1 49%,
+
+    #b99a57 95%,
     #070b13fb 100%
   );
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 h2 {
@@ -145,11 +149,15 @@ h2 {
   background: linear-gradient(
     97deg,
     #080d15 0%,
-    rgba(255, 255, 255, 1) 6%,
-    rgba(255, 255, 255, 0.9561011904761905) 49%,
-    rgba(255, 255, 255, 1) 95%,
-    #080d15 100%
+
+    #b99a57 6%,
+    #ffffffe1 49%,
+
+    #b99a57 95%,
+    #070b13fb 100%
   );
+  color: #000;
+  padding: 5px 30px;
 }
 .wrapper {
   border: 2px white solid;
@@ -167,7 +175,6 @@ h2 {
 .wrapper p {
   font-weight: 100;
   color: white;
-  
 }
 
 footer {
@@ -175,7 +182,9 @@ footer {
   padding: 30px;
   background-color: #0d1421;
   color: white;
-  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 60px -12px inset,
+    rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
 }
 footer p {
-  font-weight: 100;}
+  font-weight: 100;
+}

@@ -1,0 +1,9 @@
+.liste li p::first-letter {
+  font-weight: 100;
+  font-size: 25px;
+  padding: 0px;
+}
+.liste li{
+    list-style:circle;
+
+}

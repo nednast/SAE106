@@ -205,3 +205,21 @@ footer p {
   border-left: 2px white solid;
   border-right: 2px white solid;
 }
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wrapper p {
+  text-align: justify;
+  font-size: 25px;
+}
+
+.wrapper p::first-letter {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.wrapper a {
+  color: white;
+}
